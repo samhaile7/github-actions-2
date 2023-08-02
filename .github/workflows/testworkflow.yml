@@ -7,7 +7,7 @@ jobs:
       runs-on: ubuntu-latest
       steps:
         - name: install dependencies
-        run echo "npm install"
+        run: echo "npm install"
 
         - name: runs tests
-        run echo "npm install"
+        run: echo "npm install"
