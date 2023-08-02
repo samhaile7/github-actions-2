@@ -1,0 +1,13 @@
+name: Test Workflow
+
+on: push
+
+jobs:
+  test:
+      runs-on: ubuntu-latest
+      steps:
+        - name: install dependencies
+        run echo "npm install"
+
+        - name: runs tests
+        run echo "npm install"
